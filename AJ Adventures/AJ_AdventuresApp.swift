@@ -16,7 +16,7 @@ struct AJ_AdventuresApp: App
         {
             NavigationView
             {
-                RecipesView(recipes: Recipe.data)
+                RecipesListView(recipes: Recipe.data)
             }
         }
     }

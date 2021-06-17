@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardView: View
+struct RecipeCardView: View
 {
     let recipe: Recipe
     var body: some View
@@ -45,7 +45,7 @@ struct CardView_Previews: PreviewProvider
     static var recipe = Recipe.data[0]
     static var previews: some View
     {
-        CardView(recipe: recipe)
+        RecipeCardView(recipe: recipe)
             .background(recipe.color)
             .previewLayout(.fixed(width: 400, height: 60))
     }

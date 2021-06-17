@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A081302267B9DCF0048C89E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A081301267B9DCF0048C89E /* DetailView.swift */; };
+		4A081302267B9DCF0048C89E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A081301267B9DCF0048C89E /* RecipeDetailView.swift */; };
 		4ADC02F0267A5894008D6227 /* AJ_AdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */; };
 		4ADC02F4267A5897008D6227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC02F3267A5897008D6227 /* Assets.xcassets */; };
 		4ADC02F7267A5897008D6227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC02F6267A5897008D6227 /* Preview Assets.xcassets */; };
 		4ADC0302267A5898008D6227 /* AJ_AdventuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0301267A5898008D6227 /* AJ_AdventuresTests.swift */; };
 		4ADC030D267A5898008D6227 /* AJ_AdventuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC030C267A5898008D6227 /* AJ_AdventuresUITests.swift */; };
 		4ADC031E267A77FA008D6227 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC031D267A77FA008D6227 /* Recipe.swift */; };
-		4ADC0326267A7A44008D6227 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0325267A7A44008D6227 /* CardView.swift */; };
-		4ADC0337267A9E67008D6227 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0336267A9E67008D6227 /* RecipesView.swift */; };
+		4ADC0326267A7A44008D6227 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0325267A7A44008D6227 /* RecipeCardView.swift */; };
+		4ADC0337267A9E67008D6227 /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0336267A9E67008D6227 /* RecipesListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A081301267B9DCF0048C89E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4A081301267B9DCF0048C89E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		4ADC02EC267A5894008D6227 /* AJ Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AJ Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJ_AdventuresApp.swift; sourceTree = "<group>"; };
 		4ADC02F3267A5897008D6227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,8 +49,8 @@
 		4ADC030C267A5898008D6227 /* AJ_AdventuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJ_AdventuresUITests.swift; sourceTree = "<group>"; };
 		4ADC030E267A5898008D6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADC031D267A77FA008D6227 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		4ADC0325267A7A44008D6227 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		4ADC0336267A9E67008D6227 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		4ADC0325267A7A44008D6227 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		4ADC0336267A9E67008D6227 /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */,
-				4A081301267B9DCF0048C89E /* DetailView.swift */,
+				4ADC0336267A9E67008D6227 /* RecipesListView.swift */,
+				4ADC0325267A7A44008D6227 /* RecipeCardView.swift */,
+				4A081301267B9DCF0048C89E /* RecipeDetailView.swift */,
 				4ADC031D267A77FA008D6227 /* Recipe.swift */,
-				4ADC0325267A7A44008D6227 /* CardView.swift */,
-				4ADC0336267A9E67008D6227 /* RecipesView.swift */,
 				4ADC02F3267A5897008D6227 /* Assets.xcassets */,
 				4ADC02F8267A5897008D6227 /* Info.plist */,
 				4ADC02F5267A5897008D6227 /* Preview Content */,
@@ -268,10 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A081302267B9DCF0048C89E /* DetailView.swift in Sources */,
+				4A081302267B9DCF0048C89E /* RecipeDetailView.swift in Sources */,
 				4ADC031E267A77FA008D6227 /* Recipe.swift in Sources */,
-				4ADC0337267A9E67008D6227 /* RecipesView.swift in Sources */,
-				4ADC0326267A7A44008D6227 /* CardView.swift in Sources */,
+				4ADC0337267A9E67008D6227 /* RecipesListView.swift in Sources */,
+				4ADC0326267A7A44008D6227 /* RecipeCardView.swift in Sources */,
 				4ADC02F0267A5894008D6227 /* AJ_AdventuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

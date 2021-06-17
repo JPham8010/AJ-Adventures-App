@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DetailView: View
+struct RecipeDetailView: View
 {
     let recipe: Recipe
     var body: some View
@@ -51,7 +51,7 @@ struct DetailView_Previews: PreviewProvider
     {
         NavigationView
         {
-            DetailView(recipe: Recipe.data[0])
+            RecipeDetailView(recipe: Recipe.data[0])
         }
     }
 }
