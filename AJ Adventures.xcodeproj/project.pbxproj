@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ADC02F0267A5894008D6227 /* AJ_AdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */; };
+		4ADC02F2267A5894008D6227 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC02F1267A5894008D6227 /* MeetingView.swift */; };
+		4ADC02F4267A5897008D6227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC02F3267A5897008D6227 /* Assets.xcassets */; };
+		4ADC02F7267A5897008D6227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC02F6267A5897008D6227 /* Preview Assets.xcassets */; };
+		4ADC0302267A5898008D6227 /* AJ_AdventuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0301267A5898008D6227 /* AJ_AdventuresTests.swift */; };
+		4ADC030D267A5898008D6227 /* AJ_AdventuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC030C267A5898008D6227 /* AJ_AdventuresUITests.swift */; };
+		4ADC031E267A77FA008D6227 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC031D267A77FA008D6227 /* Recipe.swift */; };
+		4ADC0326267A7A44008D6227 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0325267A7A44008D6227 /* CardView.swift */; };
+		4ADC0337267A9E67008D6227 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC0336267A9E67008D6227 /* RecipesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ADC02FE267A5898008D6227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADC02E4267A5894008D6227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADC02EB267A5894008D6227;
+			remoteInfo = "AJ Adventures";
+		};
+		4ADC0309267A5898008D6227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADC02E4267A5894008D6227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADC02EB267A5894008D6227;
+			remoteInfo = "AJ Adventures";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ADC02EC267A5894008D6227 /* AJ Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AJ Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJ_AdventuresApp.swift; sourceTree = "<group>"; };
+		4ADC02F1267A5894008D6227 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		4ADC02F3267A5897008D6227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADC02F6267A5897008D6227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ADC02F8267A5897008D6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADC02FD267A5897008D6227 /* AJ AdventuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AJ AdventuresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC0301267A5898008D6227 /* AJ_AdventuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJ_AdventuresTests.swift; sourceTree = "<group>"; };
+		4ADC0303267A5898008D6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADC0308267A5898008D6227 /* AJ AdventuresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AJ AdventuresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC030C267A5898008D6227 /* AJ_AdventuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJ_AdventuresUITests.swift; sourceTree = "<group>"; };
+		4ADC030E267A5898008D6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADC031D267A77FA008D6227 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		4ADC0325267A7A44008D6227 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4ADC0336267A9E67008D6227 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADC02E9267A5894008D6227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC02FA267A5897008D6227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC0305267A5898008D6227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ADC02E3267A5894008D6227 = {
+			isa = PBXGroup;
+			children = (
+				4ADC02EE267A5894008D6227 /* AJ Adventures */,
+				4ADC0300267A5898008D6227 /* AJ AdventuresTests */,
+				4ADC030B267A5898008D6227 /* AJ AdventuresUITests */,
+				4ADC02ED267A5894008D6227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADC02ED267A5894008D6227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC02EC267A5894008D6227 /* AJ Adventures.app */,
+				4ADC02FD267A5897008D6227 /* AJ AdventuresTests.xctest */,
+				4ADC0308267A5898008D6227 /* AJ AdventuresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADC02EE267A5894008D6227 /* AJ Adventures */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */,
+				4ADC02F1267A5894008D6227 /* MeetingView.swift */,
+				4ADC031D267A77FA008D6227 /* Recipe.swift */,
+				4ADC0325267A7A44008D6227 /* CardView.swift */,
+				4ADC0336267A9E67008D6227 /* RecipesView.swift */,
+				4ADC02F3267A5897008D6227 /* Assets.xcassets */,
+				4ADC02F8267A5897008D6227 /* Info.plist */,
+				4ADC02F5267A5897008D6227 /* Preview Content */,
+			);
+			path = "AJ Adventures";
+			sourceTree = "<group>";
+		};
+		4ADC02F5267A5897008D6227 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC02F6267A5897008D6227 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4ADC0300267A5898008D6227 /* AJ AdventuresTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC0301267A5898008D6227 /* AJ_AdventuresTests.swift */,
+				4ADC0303267A5898008D6227 /* Info.plist */,
+			);
+			path = "AJ AdventuresTests";
+			sourceTree = "<group>";
+		};
+		4ADC030B267A5898008D6227 /* AJ AdventuresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC030C267A5898008D6227 /* AJ_AdventuresUITests.swift */,
+				4ADC030E267A5898008D6227 /* Info.plist */,
+			);
+			path = "AJ AdventuresUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADC02EB267A5894008D6227 /* AJ Adventures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADC0311267A5898008D6227 /* Build configuration list for PBXNativeTarget "AJ Adventures" */;
+			buildPhases = (
+				4ADC02E8267A5894008D6227 /* Sources */,
+				4ADC02E9267A5894008D6227 /* Frameworks */,
+				4ADC02EA267A5894008D6227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AJ Adventures";
+			productName = "AJ Adventures";
+			productReference = 4ADC02EC267A5894008D6227 /* AJ Adventures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ADC02FC267A5897008D6227 /* AJ AdventuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADC0314267A5898008D6227 /* Build configuration list for PBXNativeTarget "AJ AdventuresTests" */;
+			buildPhases = (
+				4ADC02F9267A5897008D6227 /* Sources */,
+				4ADC02FA267A5897008D6227 /* Frameworks */,
+				4ADC02FB267A5897008D6227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADC02FF267A5898008D6227 /* PBXTargetDependency */,
+			);
+			name = "AJ AdventuresTests";
+			productName = "AJ AdventuresTests";
+			productReference = 4ADC02FD267A5897008D6227 /* AJ AdventuresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ADC0307267A5898008D6227 /* AJ AdventuresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADC0317267A5898008D6227 /* Build configuration list for PBXNativeTarget "AJ AdventuresUITests" */;
+			buildPhases = (
+				4ADC0304267A5898008D6227 /* Sources */,
+				4ADC0305267A5898008D6227 /* Frameworks */,
+				4ADC0306267A5898008D6227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADC030A267A5898008D6227 /* PBXTargetDependency */,
+			);
+			name = "AJ AdventuresUITests";
+			productName = "AJ AdventuresUITests";
+			productReference = 4ADC0308267A5898008D6227 /* AJ AdventuresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADC02E4267A5894008D6227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4ADC02EB267A5894008D6227 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4ADC02FC267A5897008D6227 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4ADC02EB267A5894008D6227;
+					};
+					4ADC0307267A5898008D6227 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4ADC02EB267A5894008D6227;
+					};
+				};
+			};
+			buildConfigurationList = 4ADC02E7267A5894008D6227 /* Build configuration list for PBXProject "AJ Adventures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADC02E3267A5894008D6227;
+			productRefGroup = 4ADC02ED267A5894008D6227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADC02EB267A5894008D6227 /* AJ Adventures */,
+				4ADC02FC267A5897008D6227 /* AJ AdventuresTests */,
+				4ADC0307267A5898008D6227 /* AJ AdventuresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADC02EA267A5894008D6227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC02F7267A5897008D6227 /* Preview Assets.xcassets in Resources */,
+				4ADC02F4267A5897008D6227 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC02FB267A5897008D6227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC0306267A5898008D6227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADC02E8267A5894008D6227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC02F2267A5894008D6227 /* MeetingView.swift in Sources */,
+				4ADC031E267A77FA008D6227 /* Recipe.swift in Sources */,
+				4ADC0337267A9E67008D6227 /* RecipesView.swift in Sources */,
+				4ADC0326267A7A44008D6227 /* CardView.swift in Sources */,
+				4ADC02F0267A5894008D6227 /* AJ_AdventuresApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC02F9267A5897008D6227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC0302267A5898008D6227 /* AJ_AdventuresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADC0304267A5898008D6227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC030D267A5898008D6227 /* AJ_AdventuresUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ADC02FF267A5898008D6227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADC02EB267A5894008D6227 /* AJ Adventures */;
+			targetProxy = 4ADC02FE267A5898008D6227 /* PBXContainerItemProxy */;
+		};
+		4ADC030A267A5898008D6227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADC02EB267A5894008D6227 /* AJ Adventures */;
+			targetProxy = 4ADC0309267A5898008D6227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ADC030F267A5898008D6227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ADC0310267A5898008D6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADC0312267A5898008D6227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AJ Adventures/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AJ Adventures/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JPham.AJ-Adventures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ADC0313267A5898008D6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AJ Adventures/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AJ Adventures/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JPham.AJ-Adventures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ADC0315267A5898008D6227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AJ AdventuresTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JPham.AJ-AdventuresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJ Adventures.app/AJ Adventures";
+			};
+			name = Debug;
+		};
+		4ADC0316267A5898008D6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AJ AdventuresTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JPham.AJ-AdventuresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJ Adventures.app/AJ Adventures";
+			};
+			name = Release;
+		};
+		4ADC0318267A5898008D6227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AJ AdventuresUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JPham.AJ-AdventuresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AJ Adventures";
+			};
+			name = Debug;
+		};
+		4ADC0319267A5898008D6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AJ AdventuresUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JPham.AJ-AdventuresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AJ Adventures";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADC02E7267A5894008D6227 /* Build configuration list for PBXProject "AJ Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC030F267A5898008D6227 /* Debug */,
+				4ADC0310267A5898008D6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADC0311267A5898008D6227 /* Build configuration list for PBXNativeTarget "AJ Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC0312267A5898008D6227 /* Debug */,
+				4ADC0313267A5898008D6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADC0314267A5898008D6227 /* Build configuration list for PBXNativeTarget "AJ AdventuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC0315267A5898008D6227 /* Debug */,
+				4ADC0316267A5898008D6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADC0317267A5898008D6227 /* Build configuration list for PBXNativeTarget "AJ AdventuresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC0318267A5898008D6227 /* Debug */,
+				4ADC0319267A5898008D6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADC02E4267A5894008D6227 /* Project object */;
+}
