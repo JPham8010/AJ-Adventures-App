@@ -21,11 +21,13 @@ struct RecipeCardView: View
             
             HStack
             {
-                Label("\(recipe.steps.count) steps", systemImage: "list.bullet")
+                Label("\(recipe.steps.count) steps", systemImage: "list.number")
                     .accessibilityElement(children: /*@START_MENU_TOKEN@*/.ignore/*@END_MENU_TOKEN@*/)
                     .accessibilityLabel(Text("Steps"))
                     .accessibilityValue(Text("\(recipe.steps.count)"))
+                
                 Spacer()
+                
                 Label("\(recipe.ingredients.count) ingredients", systemImage: "list.bullet")
                     .accessibilityElement(children: /*@START_MENU_TOKEN@*/.ignore/*@END_MENU_TOKEN@*/)
                     .accessibilityLabel(Text("Ingredients"))
@@ -35,8 +37,6 @@ struct RecipeCardView: View
             .font(.caption)
         }
         .padding()
-        //TODO: figure out why this isn't working v
-        //.foregroundColor(recipe.color.accessibleFontColor)
     }
 }
 

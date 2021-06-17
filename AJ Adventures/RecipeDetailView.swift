@@ -14,17 +14,6 @@ struct RecipeDetailView: View
     {
         List
         {
-            /*
-                HStack
-                {
-                    Label("Color", systemImage: "paintpalette")
-                    Spacer()
-                    Image(systemName: "checkmark.circle.fill")
-                        .foregroundColor(recipe.color)
-                    
-                }
-                */
-            
             Section(header: Text("Ingredients"))
             {
                 ForEach(recipe.ingredients, id: \.self)
