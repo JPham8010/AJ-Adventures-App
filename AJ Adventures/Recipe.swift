@@ -37,4 +37,19 @@ extension Recipe
     }
 }
 
+extension Recipe
+{
+    struct Data
+    {
+        var name: String = ""
+        var steps: [String] = []
+        var ingredients: [String] = []
+        var color: Color = .blue
+    }
+    
+    var data: Data
+    {
+        return Data(name: name, steps: steps, ingredients: ingredients, color: color)
+    }
+}
 
