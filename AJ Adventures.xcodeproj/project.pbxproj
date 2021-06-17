@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A081302267B9DCF0048C89E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A081301267B9DCF0048C89E /* RecipeDetailView.swift */; };
 		4A081316267BB5170048C89E /* EditRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A081315267BB5170048C89E /* EditRecipeView.swift */; };
+		4A1ED273267BEB6B00B0D027 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1ED272267BEB6B00B0D027 /* Color+Codable.swift */; };
 		4ADC02F0267A5894008D6227 /* AJ_AdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */; };
 		4ADC02F4267A5897008D6227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC02F3267A5897008D6227 /* Assets.xcassets */; };
 		4ADC02F7267A5897008D6227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC02F6267A5897008D6227 /* Preview Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		4A081301267B9DCF0048C89E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		4A081315267BB5170048C89E /* EditRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecipeView.swift; sourceTree = "<group>"; };
+		4A1ED272267BEB6B00B0D027 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		4ADC02EC267A5894008D6227 /* AJ Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AJ Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADC02EF267A5894008D6227 /* AJ_AdventuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJ_AdventuresApp.swift; sourceTree = "<group>"; };
 		4ADC02F3267A5897008D6227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				4A081301267B9DCF0048C89E /* RecipeDetailView.swift */,
 				4ADC031D267A77FA008D6227 /* Recipe.swift */,
 				4A081315267BB5170048C89E /* EditRecipeView.swift */,
+				4A1ED272267BEB6B00B0D027 /* Color+Codable.swift */,
 				4ADC02F3267A5897008D6227 /* Assets.xcassets */,
 				4ADC02F8267A5897008D6227 /* Info.plist */,
 				4ADC02F5267A5897008D6227 /* Preview Content */,
@@ -274,6 +277,7 @@
 				4A081302267B9DCF0048C89E /* RecipeDetailView.swift in Sources */,
 				4ADC031E267A77FA008D6227 /* Recipe.swift in Sources */,
 				4ADC0337267A9E67008D6227 /* RecipesListView.swift in Sources */,
+				4A1ED273267BEB6B00B0D027 /* Color+Codable.swift in Sources */,
 				4ADC0326267A7A44008D6227 /* RecipeCardView.swift in Sources */,
 				4A081316267BB5170048C89E /* EditRecipeView.swift in Sources */,
 				4ADC02F0267A5894008D6227 /* AJ_AdventuresApp.swift in Sources */,

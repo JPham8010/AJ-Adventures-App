@@ -23,6 +23,9 @@ struct EditRecipeView: View
                 {
                     Text("\(Int(recipeData.steps.count)) steps")
                 }
+                
+                ColorPicker("Color", selection: $recipeData.color)
+                    .accessibilityLabel(Text("Color picker"))
             }
             
             Section(header: Text("Attendees"))

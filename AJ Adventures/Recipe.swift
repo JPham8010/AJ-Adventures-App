@@ -44,7 +44,7 @@ extension Recipe
         var name: String = ""
         var steps: [String] = []
         var ingredients: [String] = []
-        var color: Color = .blue
+        var color: Color = .random
     }
     
     var data: Data

@@ -20,6 +20,7 @@ struct RecipesListView: View
                 NavigationLink(destination: RecipeDetailView(recipe: binding(for: recipe)))
                 {
                     RecipeCardView(recipe: recipe)
+                        .listRowBackground(recipe.color)
                 }
             }
         }

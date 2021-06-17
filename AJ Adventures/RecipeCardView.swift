@@ -37,6 +37,7 @@ struct RecipeCardView: View
             .font(.caption)
         }
         .padding()
+        //.foregroundColor(recipe.color.accessibleFontColor)
     }
 }
 

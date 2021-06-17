@@ -17,15 +17,16 @@ struct RecipeDetailView: View
     {
         List
         {
-            Section(header: Text("Ingredients"))
+            Section(header: Text("Ingredients").bold().foregroundColor(.black))
             {
                 ForEach(recipe.ingredients, id: \.self)
                 { ingredients in
                     Label(ingredients, systemImage: "checkmark.circle.fill")
-                    
+                        //.foregroundColor(recipe.color)
                 }
             }
-            Section(header: Text("Steps"))
+
+            Section(header: Text("Steps").bold().foregroundColor(.black))
             {
                 ForEach(recipe.steps, id: \.self)
                 { steps in
