@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecipesListView: View
 {
-    let recipes: [Recipe]
+    @Binding var recipes: [Recipe]
     
     var body: some View
     {
@@ -17,7 +17,7 @@ struct RecipesListView: View
         {
             ForEach(recipes)
             { recipe in
-                NavigationLink(destination: RecipeDetailView(recipe: recipe))
+                NavigationLink(destination: RecipeDetailView(recipe: binding(for: recipe)))
                 {
                     RecipeCardView(recipe: recipe)
                 }
@@ -29,6 +29,14 @@ struct RecipesListView: View
             Image(systemName: "plus")
         })
     }
+    
+    private func binding(for recipe: Recipe) -> Binding<Recipe> {
+        guard let recipeIndex = recipes.firstIndex(where: { $0.id == recipe.id}) else {
+            fatalError("Can't find recipe in list")
+        }
+        
+        return $recipes[recipeIndex]
+    }
 }
 
 struct RecipesView_Previews: PreviewProvider
@@ -37,7 +45,7 @@ struct RecipesView_Previews: PreviewProvider
     {
         NavigationView
         {
-            RecipesListView(recipes: Recipe.data)
+            RecipesListView(recipes: .constant(Recipe.data))
         }
     }
 }

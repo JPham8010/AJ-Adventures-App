@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EditRecipeView: View
 {
-    @State private var recipeData: Recipe.Data = Recipe.Data()
+    @Binding var recipeData: Recipe.Data
     @State private var newStep = ""
     
     var body: some View
@@ -60,6 +60,6 @@ struct EditRecipeView_Previews: PreviewProvider
 {
     static var previews: some View
     {
-        EditRecipeView()
+        EditRecipeView(recipeData: .constant(Recipe.data[0].data))
     }
 }

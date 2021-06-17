@@ -51,5 +51,13 @@ extension Recipe
     {
         return Data(name: name, steps: steps, ingredients: ingredients, color: color)
     }
+    
+    mutating func update(from data: Data)
+    {
+        name = data.name
+        steps = data.steps
+        ingredients = data.ingredients
+        color = data.color
+    }
 }
 

@@ -9,7 +9,10 @@ import SwiftUI
 
 struct RecipeDetailView: View
 {
-    let recipe: Recipe
+    //let recipe: Recipe
+    @Binding var recipe: Recipe
+    @State private var data: Recipe.Data = Recipe.Data()
+    @State private var isPresented = false
     var body: some View
     {
         List
@@ -31,6 +34,23 @@ struct RecipeDetailView: View
             }
         }
         .listStyle(InsetGroupedListStyle())
+        .navigationBarItems(trailing: Button("Edit") {
+            isPresented = true;
+            data = recipe.data
+        })
+        .navigationTitle(recipe.name)
+        .fullScreenCover(isPresented: $isPresented) {
+            NavigationView{
+                EditRecipeView(recipeData: $data)
+                    .navigationTitle(recipe.name)
+                    .navigationBarItems(leading: Button("Canel") {
+                        isPresented = false
+                    }, trailing: Button("Done") {
+                        isPresented = false
+                        recipe.update(from: data)
+                    })
+            }
+        }
     }
 }
 
@@ -40,7 +60,7 @@ struct DetailView_Previews: PreviewProvider
     {
         NavigationView
         {
-            RecipeDetailView(recipe: Recipe.data[0])
+            RecipeDetailView(recipe: .constant(Recipe.data[0]))
         }
     }
 }

@@ -10,13 +10,14 @@ import SwiftUI
 @main
 struct AJ_AdventuresApp: App
 {
+    @State private var recipes = Recipe.data
     var body: some Scene
     {
         WindowGroup
         {
             NavigationView
             {
-                RecipesListView(recipes: Recipe.data)
+                RecipesListView(recipes: $recipes)
             }
         }
     }
