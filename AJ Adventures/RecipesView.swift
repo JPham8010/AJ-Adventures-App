@@ -17,7 +17,7 @@ struct RecipesView: View
         {
             ForEach(recipes)
             { recipe in
-                NavigationLink(destination: Text (recipe.name))
+                NavigationLink(destination: DetailView(recipe: recipe))
                 {
                     CardView(recipe: recipe)
                         .listRowBackground(recipe.color)

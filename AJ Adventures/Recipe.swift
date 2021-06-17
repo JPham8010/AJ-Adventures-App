@@ -30,9 +30,9 @@ extension Recipe
     static var data: [Recipe]
     {
         [
-            Recipe(name: "Dish 1", steps: ["Step 1", "Step 2", "Step 3"], ingredients: ["Ingr 1", " Ingr 2", "Ingr 3"], color: Color("Dish 1")),
-            Recipe(name: "Dish 2", steps: ["Step 1", "Step 2", "Step 3"], ingredients: ["Ingr 1", " Ingr 2", "Ingr 3"], color: Color("Dish 2")),
-            Recipe(name: "Dish 3", steps: ["Step 1", "Step 2", "Step 3"], ingredients: ["Ingr 1", " Ingr 2", "Ingr 3"], color: Color("Dish 3")),
+            Recipe(name: "Dish 1", steps: ["Step 1", "Step 2", "Step 3"], ingredients: ["Ingr 1", "Ingr 2", "Ingr 3"], color: Color("Dish 1")),
+            Recipe(name: "Dish 2", steps: ["Step 1", "Step 2", "Step 3"], ingredients: ["Ingr 1", "Ingr 2", "Ingr 3"], color: Color("Dish 2")),
+            Recipe(name: "Dish 3", steps: ["Step 1", "Step 2", "Step 3"], ingredients: ["Ingr 1", "Ingr 2", "Ingr 3"], color: Color("Dish 3")),
         ]
     }
 }
