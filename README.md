@@ -7,3 +7,4 @@
 
 ## TODOs/Backlog
 1. Fix icons for "ingredients" and "steps" in DetailView.swift to make more sense. (Potentially do a circle (.filled) to indicate boolean status)
+2. Look into Realm.io or NSUserDefaults for data storage after closing
