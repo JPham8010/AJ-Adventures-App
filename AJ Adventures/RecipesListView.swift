@@ -10,6 +10,7 @@ import SwiftUI
 struct RecipesListView: View
 {
     @Binding var recipes: [Recipe]
+    @State private var newRecipe = ""
     
     var body: some View
     {
@@ -25,7 +26,11 @@ struct RecipesListView: View
             }
         }
         .navigationTitle("Recipes")
-        .navigationBarItems(trailing: Button(action: {})
+        .navigationBarItems(trailing: Button(action: {
+            withAnimation {
+                //TODO: Add functionality to the plus button. When pressed, create a new recipe.
+            }
+        })
         {
             Image(systemName: "plus")
         })
