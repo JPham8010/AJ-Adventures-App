@@ -11,6 +11,8 @@ struct RecipesListView: View
 {
     @Binding var recipes: [Recipe]
     @State private var newRecipe = ""
+    @State private var isPresented = false
+    @State private var newRecipeData = Recipe.Data()
     
     var body: some View
     {
@@ -27,13 +29,25 @@ struct RecipesListView: View
         }
         .navigationTitle("Recipes")
         .navigationBarItems(trailing: Button(action: {
-            withAnimation {
-                //TODO: Add functionality to the plus button. When pressed, create a new recipe.
-            }
+            isPresented = true
         })
         {
             Image(systemName: "plus")
         })
+        .sheet(isPresented: $isPresented)
+        {
+            NavigationView
+            {
+                EditRecipeView(recipeData: $newRecipeData)
+                    .navigationBarItems(leading: Button("Cancel"){
+                        isPresented = false
+                    }, trailing: Button("Add") {
+                        let newRecipe = Recipe(name: newRecipeData.name, steps: newRecipeData.steps, ingredients: newRecipeData.ingredients, color: newRecipeData.color)
+                        recipes.append(newRecipe)
+                        isPresented = false
+                    })
+            }
+        }
     }
     
     private func binding(for recipe: Recipe) -> Binding<Recipe> {
